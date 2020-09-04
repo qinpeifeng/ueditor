@@ -1,0 +1,159 @@
+﻿details {
+    border:1px solid rgba(204, 204, 204,0.3);
+    padding:3px;
+}
+.tab-lis,div[data-class="tab-lis"] {
+    position:relative;
+    padding-right: 100px;
+    min-height:32px;
+}
+.tab-list-inner,div[data-class="tab-list-inner"] {
+    overflow:hidden;
+}
+.tab-ul,div[data-class="tab-ul"] {
+    /*width:999999px;*/
+    min-height:32px;
+    position:relative;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.tab-lis-wrap,div[data-class="tab-lis-wrap"] {
+    display:inline-block;
+    position:absolute;
+}
+.tab-lis-item,div[data-class="tab-lis-item"] {
+    display:inline-block;
+    padding:0 15px;
+    border:1px solid rgba(204, 204, 204,0.5);
+    border-radius:4px 4px 0 0;
+    border-bottom:0;
+    background-color:#f7f7f7;
+    border-right:0;
+    position:relative;
+}
+.tab-lis-item p, div[data-class="tab-lis-item"] p{
+    box-sizing:border-box;
+    height:32px;
+    line-height:32px;
+    padding:0;
+    margin:0;
+}
+.tab-lis-item:last-child,div[data-class="tab-lis-item"]:last-child {
+    border-right:1px solid rgba(204, 204, 204,0.5);
+}
+.active.tab-lis-item,div[data-active="active"] {
+    background-color:#ffffff;
+    border-color: #a5a5a5;
+}
+.tab-close,span[data-class="tab-close"] {
+    /*border:1px solid red;*/
+    width:11px;
+    height:11px;
+    position:absolute;
+    right:2px;
+    top:10px;
+    border-radius:50%;
+    cursor:pointer;
+    /*background: url(../img/tabs_close.gif) no-repeat 2px 2px;*/
+    background: url(../img/tabs_close.gif) no-repeat center;
+    overflow:hidden;
+}
+.tab-items,div[data-class="tab-items"] {
+    border: 1px solid rgba(204, 204, 204,0.3);
+    overflow-x:auto;
+    padding:3px;
+}
+.tab-item,div[data-class="tab-item"] {
+    position:absolute !important;
+    left:-9999999px !important;
+}
+
+.tab-items .active.tab-item,div[data-class="tab-items"]>div[data-active="active"] {
+    position:static !important;
+    left:0 !important;
+}
+
+.tab-add,.tabs-close,span[data-class="tab-add"],span[data-class="tabs-close"]{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border:1px solid rgba(204, 204, 204,0.3);
+    top:1px;
+    cursor:pointer;
+    display:block;
+    border-bottom:0;
+}
+.tab-add,span[data-class="tab-add"]{
+    right:35px;
+    /*background: url(../img/edit_add.png) no-repeat center;*/
+     background: url(../img/edit_add.png) no-repeat center;
+}
+.tabs-close,span[data-class="tabs-close"] {
+   right:0px;
+   /*background: url(../img/bu_close.png) no-repeat center;*/
+   background: url(../img/bu_close.png) no-repeat center;
+}
+.tab-prev,.tab-next,span[data-class="tab-prev"],span[data-class="tab-next"]{
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    top: 1px;
+    cursor: pointer;
+    display: block;
+    border: 1px solid rgba(204, 204, 204,0.3);
+    border-bottom:0;
+    left:-9999999px;
+}
+.tab-prev,span[data-class="tab-prev"]{
+    /*right:85px;*/
+    /*background:url(../img/tabs_leftarrow.png) no-repeat -3px 8px;*/
+    background: url(../img/tabs_leftarrow.png) no-repeat -3px 8px;
+}
+.tab-next,span[data-class="tab-next"] {
+   /*right:70px;*/
+   /*background: url(../img/tabs_rightarrow.png) no-repeat -3px 8px;*/
+   background: url(../img/tabs_rightarrow.png) no-repeat -3px 8px;
+}
+div[data-isover="true"] .tab-prev,div[data-isover="true"]  span[data-class="tab-prev"] {
+    right:85px;
+    left:auto;
+    left:auto !important;
+} 
+div[data-isover="true"]  .tab-next,div[data-isover="true"]  span[data-class="tab-next"] {
+    right:70px;
+    left:auto !important;
+
+}
+.body-view .tab-lis,.body-view div[data-class="tab-lis"] {
+    padding-right:30px;
+}
+.body-view div[data-isover="true"] .tab-prev,.body-view div[data-isover="true"] span[data-class="tab-prev"]{
+    right:15px;
+}
+.body-view div[data-isover="true"] .tab-next,.body-view div[data-isover="true"] span[data-class="tab-next"] {
+   right:0px;
+    left:auto;
+
+}
+
+
+.body-view .tab-add,.body-view span[data-class="tab-add"]{
+    left:-9999999px;
+}
+.body-view .tabs-close,.body-view span[data-class="tabs-close"] {
+   left:-9999999px;
+}
+.body-view .tab-close,.body-view span[data-class="tab-close"]{
+    left:-9999999px;
+}
+
+a[data-type="bpm_forminstance_url"] {
+    text-indent:0;
+    display:inline-block;
+}
+
+ .view {  word-break: break-all; } 
+ .vote_area {  display: block; } 
+ .vote_iframe {  background-color: transparent;  border: 0 none;  height: 100%; } 
+ /*去除点击图片后出现的拉伸边框*/
+ #edui1_imagescale{ 	display:none !important; }
