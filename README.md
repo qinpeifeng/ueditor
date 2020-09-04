@@ -28,3 +28,9 @@ ueditor百度富文本编辑器，针对原有的功能进行操作优化及新�
   <li>优化前，从Excel复制内容粘贴到uediotr后，无法保留在Excel中的颜色，列宽等问题</li>
   <li>优化后，能完整保留从Excel复制粘贴到uediotr的内容及格式，基本与在Excel中的内容格式一致</li>
 </ul>
+
+
+## Contacts
+如果对你有所帮助，请动动小手点下star
+<br/>
+如果有问题及交流，请发email:332039533@qq.com
